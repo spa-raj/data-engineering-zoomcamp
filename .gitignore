@@ -1,0 +1,36 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.python-version
+*.egg-info/
+dist/
+build/
+
+# Environment variables (sensitive!)
+.env
+.env.*
+
+# IDE
+.idea/
+
+# Data files (don't commit large datasets)
+*.parquet
+*.csv
+!**/test/*.csv
+
+# Terraform (for later)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
