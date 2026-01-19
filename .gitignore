@@ -34,3 +34,6 @@ crash.log
 
 # Logs
 *.log
+
+# GCP credentials
+my-creds.json
